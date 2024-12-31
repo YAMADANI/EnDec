@@ -1,0 +1,23 @@
+{
+  "name": "endec",
+  "version": "1.0.0",
+  "description": "Encode or decode an image",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "electron": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YAMADANI/EnDec.git"
+  },
+  "author": "",
+  "license": "MIT License",
+  "bugs": {
+    "url": "https://github.com/YAMADANI/EnDec/issues"
+  },
+  "homepage": "https://github.com/YAMADANI/EnDec#readme",
+  "devDependencies": {
+    "electron": "^33.2.1"
+  }
+}

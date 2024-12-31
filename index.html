@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <title>EnDec</title>
+    </head>
+    <body>
+        <h1>EnDec</h1>
+        <div>
+            <ul>
+                <li>
+                    <input type="radio" name="which" id="encode" checked>
+                    <label for="encode">エンコード</label>
+                </li>
+                <li>
+                    <input type="radio" name="which" id="decode">
+                    <label for="decode">デコード</label>
+                </li>
+            </ul>
+        </div>
+        <div class="input-output-container">
+            <div class="left-column">
+                <textarea id="decodetext" rows="10" cols="20"></textarea>
+                <div id="fileInputWrapper">
+                    ファイルを選択してください
+                    <input type="file" id="fileInput" />
+                </div>
+            </div>
+            <div class="right-column">
+                <textarea id="encodetext" rows="10" cols="20"></textarea>
+                <div id="fileOutput">ここにダウンロードリンクが表示されます。</div>
+            </div>
+        </div>
+        <div>
+            <button onclick="click();">変換</button>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

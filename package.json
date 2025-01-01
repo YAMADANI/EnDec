@@ -4,20 +4,44 @@
   "description": "Encode or decode an image",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "electron": "electron ."
+    "start": "electron .",
+    "electron": "electron .",
+    "build": "electron-builder"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/YAMADANI/EnDec.git"
   },
-  "author": "",
+  "build": {
+    "appId": "com.yamadani.endec",
+    "productName": "EnDec",
+    "win": {
+      "target": "nsis",
+      "icon": "icons/windows.ico"
+    },
+    "mac": {
+      "target": "dmg",
+      "category": "public.app-category.utilities",
+      "icon": "icons/mac.icns"
+    },
+    "linux": {
+      "target": "AppImage",
+      "icon": "icons/linux",
+      "maintainer": "YAMADANI",
+      "category": "Utility"
+    },
+    "directories": {
+      "output": "dist"
+    }
+  },
+  "author": "YAMADANI",
   "license": "MIT License",
   "bugs": {
     "url": "https://github.com/YAMADANI/EnDec/issues"
   },
   "homepage": "https://github.com/YAMADANI/EnDec#readme",
   "devDependencies": {
-    "electron": "^33.2.1"
+    "electron": "^33.2.1",
+    "electron-builder": "^25.1.8"
   }
 }

@@ -26,7 +26,7 @@
     },
     "linux": {
       "target": "AppImage",
-      "icon": "icons/linux",
+      "icon": "icons/linux/512x512.png",
       "maintainer": "YAMADANI",
       "category": "Utility"
     },

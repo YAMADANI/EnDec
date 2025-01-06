@@ -1,6 +1,11 @@
 # EnDec
-[https://yamadani.github.io/EnDec](https://yamadani.github.io/EnDec)
 ビットマップ画像とベクター画像をBase64エンコード・デコードできます。
+## バージョン
+### EnDec
+[https://github.com/YAMADANI/EnDec/releases](https://github.com/YAMADANI/EnDec/releases)
+
+### EnDecWeb
+[https://yamadani.github.io/EnDec](https://yamadani.github.io/EnDec)
 
 ## 使い方
 ### エンコード
